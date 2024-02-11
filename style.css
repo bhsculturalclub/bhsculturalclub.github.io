@@ -1,0 +1,64 @@
+/* CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+}
+header {
+    background-color: #4682b4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    background-color: #4682b4; /* Light blue navigation bar */
+    padding: 10px;
+    text-align: left;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effect */
+    border: 1px solid #fff; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin: 0 5px; /* Add some margin between buttons */
+}
+
+nav a:hover {
+    background-color: #326b8e; /* Darker blue on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px; /* Larger font size for website name */
+}
+/* Your existing CSS styles */
+
+.login-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effect */
+    border: 1px solid #fff; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin: 0 5px; /* Add some margin between buttons */
+}
+
+.login-button:hover {
+    background-color: #326b8e; /* Darker blue on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}

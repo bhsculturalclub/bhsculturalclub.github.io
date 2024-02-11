@@ -1,0 +1,81 @@
+/* login.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+header {
+    background-color: #4682b4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container {
+    margin-top: 200px; /* Adjust spacing from the top */
+}
+
+.login-frame {
+    background-color: #fff;
+    padding: 60px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    border: 1px solid #ccc; /* Add border */
+    max-width: 400px; /* Limit max width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.login-form {
+    max-width: 100%; /* Ensure form fills frame width */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 96%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4682b4; /* Blue button background color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #326b8e; /* Darker blue on hover */
+}
+
+.signup-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #4682b4; /* Blue link color */
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
