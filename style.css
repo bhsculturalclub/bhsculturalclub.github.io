@@ -3,10 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Light blue background */
+    background-image: url('Logo.png'); /* Add the path to your background image */
+    background-size: contain; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
 }
 header {
-    background-color: #4682b4;
+    background-color: #005296;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -14,8 +17,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+h1 {
+    font-size: 40px; /* Larger font size for website name */
+    font-family: "Times New Roman", Times, serif; /* Change the font family of the header */
+    margin: 0; /* Remove default margin */
+    line-height: 2;
+}
 nav {
-    background-color: #4682b4; /* Light blue navigation bar */
+    background-color: #005296; /* Light blue navigation bar */
     padding: 10px;
     text-align: left;
 }
@@ -37,16 +46,6 @@ nav a:hover {
 main {
     padding: 20px;
 }
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-h1 {
-    font-size: 36px; /* Larger font size for website name */
-}
-/* Your existing CSS styles */
 
 .login-button {
     color: #fff;
